@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         Kraig is building a slack clone.
         </p>
         
-      
+      <div className='App__body'>
+        <Sidebar/>
+        </div>
     </div>
   );
 }
