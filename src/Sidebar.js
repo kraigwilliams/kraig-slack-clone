@@ -8,19 +8,18 @@ function Sidebar() {
         <div className="sidebar">
             
             <div className='sidebar__header'>
-            <h2>Kraig Slack
-            
-            </h2> 
-            <CreateIcon/>
-            </div> 
-                <div className='sidebar__info'> 
-               
-                
+            <div className='sidebar__info'> 
+            <h2>Kraig Slack</h2> 
             <h3>
             <FiberManualRecordIcon/>
             Kraig Williams
             </h3>
+            </div> 
+                
+               
+                
             
+            <CreateIcon/>
             
             
             </div>
