@@ -9,7 +9,7 @@ function App() {
     <Header/>
         
         <p>
-        Kraig is building a slack clone.
+        
         </p>
         
       <div className='App__body'>
